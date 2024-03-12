@@ -33,4 +33,4 @@ with fileinput.FileInput(destination_file, inplace=True) as file:
 # # Run git commands
 run_command("cd public && git add .")
 run_command('cd public && git commit -m "Automated commit"')
-run_command("cd public && git push --set-upstream origin main")
+run_command("cd public && git push")
